@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: seashell;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 22px;
+}
+header img{
+    height: 50px;
+    padding-left: 10px;
+    margin: auto 0;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+}
+.header a{
+    padding-right: 25px;
+    color: seashell;
+}
+.header a:hover {
+    color: gray;
+    cursor: pointer;
+    text-decoration: wavy;
+}
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+
+}
+
+.mission {
+    background-image: url(/coffee-shop/resources/images/img-mission-background.jpg);
+    height: 700px;
+    width: 1350px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission div,
+.feature-tea div {
+    background-color: black;
+    width: 100%;
+    opacity: .8;
+    line-height: 1.5;
+}
+
+.feature-tea {
+    margin-top: 40px;
+}
+.feature-tea ul {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.feature-tea li {
+    margin: 10px 15px;
+    text-decoration: none;
+}
+figure img {
+    width: 300px;
+    height: 200px;
+}
+figcaption {
+    margin-top: 10px;
+}
+
+.location {
+    background-image: url(/coffee-shop/resources/images/img-locations-background.jpg);
+    height: 500px;
+    width: 1350px;
+    margin-top: 50px;
+}
+.location div {
+    margin-top: 70px;
+}
+.location ul {
+    margin-top: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.location li {
+    text-decoration: none;
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    line-height: 1.5;
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer {
+    height: 200px;
+    margin-top: 10px;
+    line-height: 2;
+}
+footer h2 {
+    margin-bottom: 30px;
+}
+p{
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    right: 590px;
+    margin-bottom: 20px;
+}
+
